@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Streak House</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo1.jpg" alt="Gourmet Delight Logo">
+        </div>
+        <h1>Streak House</h1>
+        <p class="tagline">A morning without coffee is like sleep.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+    </nav>
+
+    <section id="hero">
+        <div class="container">
+          <div class="info">
+            <h2>Welcome to Streak House</h2>
+            <p>Streak House is an Australian style cafe. </p>
+            <a href="#menu">Click Me</a>
+          </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="about-container">
+            <div class="about-text">
+                <h2>About Us</h2>
+                <i>Welcome to Streak House! 
+
+                     Hours: Monday to Saturday: 7:45 AM to 3:30 PM. Kitchen closes at 3 PM. </i>
+                    
+            </div>
+            <div class="about-image">
+                <img src="images/aboutus.jpg" alt="About Us">
+            </div>
+        </div>
+    </section>
+
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-grid">
+            <!-- Repeat this block for each menu item -->
+            <div class="menu-item">
+                <img src="images/burger.jpg" alt="Menu Item">
+                <h3>Burger</h3>
+                <p>A burger is a patty of ground beef grilled and placed between two halves of a bun. Slices of raw onion, lettuce, bacon, mayonnaise, and other ingredients add flavor.</p>
+                <p class="price">100rupess</p>
+            </div>
+            <!-- End of menu item block -->
+            <div class="menu-item">
+              <img src="images/pasta.jpg" alt="Menu Item">
+              <h3>Pasta</h3>
+              <p>Italian pasta (pronounced “PAS-tah”) is a collective name for a category of food made from wheat flour and water, sometimes with egg. The name refers to the resulting dough (pasta also means “dough”) that is rolled out and cut into various shapes. </p>
+              <p class="price">200rupees</p>
+          </div>
+          <div class="menu-item">
+            <img src="images/momos.jpg" alt="Menu Item">
+            <h3>Momos</h3>
+            <p>Introduced by Tibetan immigrants in the 1960s, these dumplings became not just a food item but an embodiment of cultural amalgamation. Found across Ladakh, Darjeeling, Dharamshala, Sikkim, and Delhi, Momos symbolize unity in diversity.</p>
+            <p class="price">120rupees</p>
+        </div>
+        <div class="menu-item">
+            <img src="images/fries.jpg" alt="Menu Item">
+            <h3>Fries</h3>
+            <p> The perfect french fries recipe! Based on a ground-breaking method from the legendary Kenji López-Alt’s The Food Lab, these hot chips are so crispy they stay that way even after they’ve gone cold. It’s rare to find fries this good even at up-market bistros!</p>
+            <p class="price">150rupees</p>
+        </div>
+        <div class="menu-item">
+            <img src="images/pizza.jpg" alt="Menu Item">
+            <h3>Pizza</h3>
+            <p>Pizza, dish of Italian origin consisting of a flattened disk of bread dough topped with some combination of olive oil, oregano, tomato, olives, mozzarella or other cheese, and many other ingredients, baked quickly.</p>
+            <p class="price">250rupees</p>
+        </div>
+    
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone">
+            
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+        <div class="contact-info">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241317.11609740306!2d72.74109963192405!3d19.08252232014237!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63d0682b41b%3A0x2482eb071f4f52c4!2sIndia!5e0!3m2!1sen!2sus!4v1595073677085!5m2!1sen!2sus"
+                width="600"
+                height="450"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            
+
+            <p>1423 SE 10th Street, Unit 1A, Cape Coral</p>
+            
+        </div>
+    </section>
+
+    <footer>
+      <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-about">
+                <h3>Streak House</h3>
+                <p>Welcome to Streak House, Savoring the flavors and textures of a well-crafted pastry in the cozy embrace of the cafe.</p>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h3>Follow Us</h3>
+                <a href="https://facebook.com" target="_blank">Facebook</a>
+                <a href="https://twitter.com" target="_blank">Twitter</a>
+                <a href="https://instagram.com" target="_blank">Instagram</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Ahan Chauhan. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
